@@ -1,0 +1,69 @@
+body {
+    
+    height: 100vh;
+    margin: 0;
+
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/img/clouds.jpg');
+    
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.cardWeather {
+    background-color: #000000d0;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    color: white;
+   
+    
+}
+.icon-temp{
+    display: flex;
+}
+img{
+    display: block;
+    margin: 0% auto;
+    
+}
+
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.temp{
+    font-size: 40px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+.button button{
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
